@@ -1,6 +1,8 @@
 # `site.md`
 A markdown website auto builder.
 
+Full documentation at [docs.rose-brindle.dev]().
+
 ## Details
 This script (`sitemd.sh`) creates PHP files based on the given template for all markdown files in either the root directory (ie the directory the script is in), or recurisvely within all directories within the root directory. A config file is automaticly created within each directory which stores useful data for the PHP files. A main config file (`sitemd_conf.json`) allows the user to make configuration changes.
 
